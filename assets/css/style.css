@@ -1,0 +1,125 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #B59D26;
+}
+h1, h2, h3, h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 1px 1px black;
+}
+.container{
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+  
+}
+header .container{
+    align-items: center;
+}
+.container h1, 
+.container h2{
+    color: #7C824F;
+}
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 250px;
+    height: 300px;
+
+    border-radius: 3px;
+    background-color: #696035;
+}
+#img{
+    width: 95%;
+    height: 85%;
+    margin: 5px;
+
+    background-color:wheat;
+
+    background-image: url('../img/netscape.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+#title-img{
+    text-align: center;
+    color: white;
+}
+.desc{
+    margin: 20px ;
+    text-align: center;
+}
+#principal, 
+.corpo{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.548);
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+
+    height: 850px;
+    width: 95%;
+    margin: 0px 20px 0px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    background-color: #7C824F;
+    color: white;
+}
+.title{
+    align-self: center;
+    margin: 20px 0px 20px 0px;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+}
+.cont1, .cont2, .cont3{
+    flex: 1;
+    margin: 0px 10px 0px 10px;
+    max-width: 400px;
+}
+.cont1{
+    text-align: justify;
+}
+.conteudo  h4{
+    text-align: center;
+}
+
+.cont2{
+    background-image: url('../img/logo-js.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cont3 > .version{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px dotted black;
+}
+.date{
+    color: #FFF129;
+}
+.foot{
+    display: flex ;
+    justify-content: center;
+    background-color: #7C824F;
+}
+#direitos{
+    padding: 10px;
+    color:#4e471e;
+}
+#direitos > a{
+    text-decoration: none;
+    color:#B59D26;
+}
+q:hover{
+    color: #FFF129;
+}
