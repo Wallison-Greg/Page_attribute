@@ -99,6 +99,9 @@ header .container{
     background-repeat: no-repeat;
     background-position: center center;
 }
+#cont-img{
+    display: none;
+}
 
 .cont3 > .version{
     padding: 10px 0px 10px 0px;
@@ -122,4 +125,29 @@ header .container{
 }
 q:hover{
     color: #FFF129;
+}
+
+/*Formatação para tablets e celulares*/
+
+@media (max-width: 1281px){
+    .desc{
+        text-align: justify;
+    }
+    .corpo{
+        height: auto;
+    }
+    .conteudo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont2{
+        height: 400px;
+    }
+    #cont-img{
+        display: flex;
+    }
+    .cont1, .cont2, .cont3{
+        margin-bottom: 10px;
+    }
 }
